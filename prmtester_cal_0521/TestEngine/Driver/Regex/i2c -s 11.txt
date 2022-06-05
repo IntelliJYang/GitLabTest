@@ -1,0 +1,6 @@
+Sweeping bus 11
+Bus 11 IC exists at Address: (7-bit) {{silego_1_7bit}} (8-bit) {{silego_1_8bit}}
+Bus 11 IC exists at Address: (7-bit) {{silego_2_7bit}} (8-bit) {{silego_2_8bit}}
+Bus 11 IC exists at Address: (7-bit) {{silego_3_7bit}} (8-bit) {{silego_3_8bit}}
+Bus 11 IC exists at Address: (7-bit) {{silego_4_7bit}} (8-bit) {{silego_4_8bit}}
+Bus 11 IC exists at Address: (7-bit) {{supercap_bb_7bit}} (8-bit) {{supercap_bb_8bit}}

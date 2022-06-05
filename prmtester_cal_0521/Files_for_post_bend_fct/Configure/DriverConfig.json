@@ -1,0 +1,22 @@
+{
+  "fixture": {
+    "port": "/dev/cu.usbserial-PRMDUT0",
+    "baudrate": "115200",
+    "bytesize": 8,
+    "parity": "N",
+    "stopbits": 1,
+    "timeout": 2,
+    "endstr": "\r\n",
+    "startstr": "S:",
+    "stream_ip": "169.254.1.77"
+  },
+  "HW": {
+    "uut0": {
+      "xavier": {
+        "type": "rpc",
+        "requester": "tcp://169.254.1.47:7801",
+        "receiver": "tcp://169.254.1.47:17801"
+      }
+    }
+  }
+}

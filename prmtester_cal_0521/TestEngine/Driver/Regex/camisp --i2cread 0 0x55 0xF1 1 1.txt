@@ -1,0 +1,3 @@
+RunI2cRead 0xF1
+{{register_data}}
+Pass

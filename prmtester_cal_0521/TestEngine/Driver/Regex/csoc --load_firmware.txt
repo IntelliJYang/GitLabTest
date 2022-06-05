@@ -1,0 +1,2 @@
+Link 0 speed negotiate to {{speed}}
+Link 0 width negotiate to {{width}}

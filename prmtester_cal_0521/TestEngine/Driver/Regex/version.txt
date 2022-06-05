@@ -1,0 +1,6 @@
+Branch ({{ANY}}), Commit ({{diags_version}}), Platform ({{soc_name}} )
+{{ANY}}
+{{ANY}}
+{{ANY}}
+	Built at - {{build_time}}
+	Version  - {{ANY}}

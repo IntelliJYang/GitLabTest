@@ -1,0 +1,13 @@
+type: {{ANY}}
+vendor: {{ANY}}
+model: {{ANY}}
+mac-addr: {{ANY}}
+powered: {{ANY}}
+sleeping: {{ANY}}
+firmware-loaded: {{ANY}}
+firmware-filename: "{{bt_fw_ver}}.bin"
+async-log-supported: {{ANY}}
+use-ios-firmware: {{ANY}}
+use-lpem-firmware: {{ANY}}
+fw-crashed: {{ANY}}
+enable_hci_event: {{ANY}}

@@ -1,0 +1,28 @@
+Serial number                            : {{serial_number}}    
+Model number                             : {{model_number}}                       
+Firmware version                         : {{firmware_version}}
+Vendor ID                                : {{ANY}}
+Subsystem ID                             : {{ANY}}
+IEEE OUI Identifier                      : {{ANY}}
+Recommended arbitration burst            : {{ANY}}
+MIC                                      : {{ANY}}
+Max data transfer size                   : {{ANY}}
+Optional admin command support           : {{ANY}}
+Abort command limit                      : {{ANY}}
+Async event request limit                : {{ANY}}
+Firmware updates                         : {{ANY}}
+Log page attributes                      : {{ANY}}
+Error log page entries                   : {{ANY}}
+Power states supported                   : {{ANY}}
+Admin vendor-specific cmd config         : {{ANY}}
+SQ entry size                            : {{ANY}}
+CQ entry size                            : {{ANY}}
+Namespaces supported                     : {{ANY}}
+Optional NVMe command support            : {{ANY}}
+Fuse operation support                   : {{ANY}}
+Format of NVMe attributes                : {{ANY}}
+Volatile write cache                     : {{ANY}}
+Atomic write unit normal                 : {{ANY}}
+Atomic write unit power-fail             : {{ANY}}
+NVMe vendor-specific command config      : {{ANY}}
+MSP revision                             : {{msp_version}}   

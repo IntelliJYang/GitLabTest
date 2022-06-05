@@ -1,0 +1,11 @@
+Vendor:           {{vendor}}
+Capacity:         {{capacity}}
+Die Name:         {{die_Name}}
+Firmware Version: {{ANY}}
+Prod FW Version:  {{prod_fw_version}}
+ManufacturerID:   {{ANY}}
+ManufacturerID:   {{ANY}}
+Controller UID:   {{ANY}}
+PPN Device:       {{ANY}} 
+Chip ID:          {{ANY}} 
+Cell Type:        {{cell_type}}

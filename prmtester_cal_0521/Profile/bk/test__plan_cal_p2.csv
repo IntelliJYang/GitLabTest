@@ -1,0 +1,109 @@
+GROUP,TID,UNIT,LOW,HIGH,FUNCTION,PARAM1,PARAM2,KEY,VAL,FAIL_COUNT,TIMEOUT,DESCRIPTION
+Fixture Init,Station name,,,,station_name,,,,,,20000,
+Fixture Init,Vendor ID,,,,vendor_id,,,,,,20000,
+Fixture Init,Slot ID,,,,slot_id,,,,,,20000,
+Fixture Init,Xavier FW version,,,,mix_fw_version,,,,,,20000,
+
+
+Fixture Init,Reset fixture_1,,,,reset_board,,,,,1,20000,
+Fixture Init,DELAY_2S,,,,delay,2000,,,,,20000,
+
+Fixture Init,OQC_OPEN,,,,oqc_open,inst_34460,USB0::0x2A8D::0x0301::MY54504692::0::INSTR,,,,20000,
+Power Up,PSU_ON_13V_5A,,,,psu_on,13000,2000,,,,20000,
+
+
+CAL_POWER_RAIL,Relay to DISCHARGE_PPVBUS_SPFCAP_BOOST,,,,relay_switch,DISCHARGE_PPVBUS_SPFCAP_BOOST,CONNECT,,,,20000,
+
+CAL_POWER_RAIL,Relay POWER_SUPPLY_PATH to PPVBUS_HMD_INPUT_CONN,,,,relay_switch,POWER_SUPPLY_PATH,PSU_TO_PPVBUS_HMD_INPUT,,,,20000,
+
+CAL_POWER_RAIL,Relay POWER_RAIL_PATH to PPVBUS_HMD_INPUT_SNS_DIV,,,,relay_switch,POWER_RAIL_PATH,PPVBUS_HMD_INPUT_SNS_DIV,,,,20000,
+CAL_POWER_RAIL,debug_read_voltage PPVBUS_HMD_INPUT_SNS_DIV,mV,,,get_cal_voltage,PPVBUS_HMD_INPUT_SNS_DIV,0@16000@power_rail,,,,50000,
+
+CAL_POWER_RAIL,verify_PPVBUS_HMD_INPUT_SNS_DIV_5000,mV,4990,5010,verify_cal_voltage,5000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_HMD_INPUT_SNS_DIV_6000,mV,,,verify_cal_voltage,6000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_HMD_INPUT_SNS_DIV_7000,mV,,,verify_cal_voltage,7000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_HMD_INPUT_SNS_DIV_8000,mV,,,verify_cal_voltage,8000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_HMD_INPUT_SNS_DIV_9000,mV,,,verify_cal_voltage,9000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_HMD_INPUT_SNS_DIV_10000,mV,,,verify_cal_voltage,10000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_HMD_INPUT_SNS_DIV_11000,mV,,,verify_cal_voltage,11000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_HMD_INPUT_SNS_DIV_12000,mV,,,verify_cal_voltage,12000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_HMD_INPUT_SNS_DIV_13000,mV,,,verify_cal_voltage,13000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_HMD_INPUT_SNS_DIV_14000,mV,,,verify_cal_voltage,14000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_HMD_INPUT_SNS_DIV_15000,mV,,,verify_cal_voltage,15000,,,,,50000,
+
+
+CAL_POWER_RAIL,Relay POWER_RAIL_PATH to PP8V0_IPD_DRV_DIV,,,,relay_switch,POWER_RAIL_PATH,PP8V0_IPD_DRV_DIV,,,,20000,
+CAL_POWER_RAIL,debug_read_voltage PP8V0_IPD_DRV_DIV,mV,,,get_cal_voltage,PP8V0_IPD_DRV_DIV,0@16000@power_rail,,,,50000,
+
+CAL_POWER_RAIL,verify_PP8V0_IPD_DRV_DIV_5000,mV,,,verify_cal_voltage,5000,,,,,50000,
+CAL_POWER_RAIL,verify_PP8V0_IPD_DRV_DIV_6000,mV,,,verify_cal_voltage,6000,,,,,50000,
+CAL_POWER_RAIL,verify_PP8V0_IPD_DRV_DIV_7000,mV,,,verify_cal_voltage,7000,,,,,50000,
+CAL_POWER_RAIL,verify_PP8V0_IPD_DRV_DIV_8000,mV,,,verify_cal_voltage,8000,,,,,50000,
+CAL_POWER_RAIL,verify_PP8V0_IPD_DRV_DIV_9000,mV,,,verify_cal_voltage,9000,,,,,50000,
+CAL_POWER_RAIL,verify_PP8V0_IPD_DRV_DIV_10000,mV,,,verify_cal_voltage,10000,,,,,50000,
+CAL_POWER_RAIL,verify_PP8V0_IPD_DRV_DIV_11000,mV,,,verify_cal_voltage,11000,,,,,50000,
+CAL_POWER_RAIL,verify_PP8V0_IPD_DRV_DIV_12000,mV,,,verify_cal_voltage,12000,,,,,50000,
+CAL_POWER_RAIL,verify_PP8V0_IPD_DRV_DIV_13000,mV,,,verify_cal_voltage,13000,,,,,50000,
+CAL_POWER_RAIL,verify_PP8V0_IPD_DRV_DIV_14000,mV,,,verify_cal_voltage,14000,,,,,50000,
+CAL_POWER_RAIL,verify_PP8V0_IPD_DRV_DIV_15000,mV,,,verify_cal_voltage,15000,,,,,50000,
+
+
+CAL_POWER_RAIL,Relay POWER_RAIL_PATH to PPVBUS_SPFCAP_BOOST,,,,relay_switch,POWER_RAIL_PATH,PPVBUS_SPFCAP_BOOST_DIV,,,,20000,
+CAL_POWER_RAIL,debug_read_voltage PPVBUS_SPFCAP_BOOST,mV,,,get_cal_voltage,PPVBUS_SPFCAP_BOOST_DIV,0@16000@power_rail,,,,50000,
+
+CAL_POWER_RAIL,verify_PPVBUS_SPFCAP_BOOST_DIV_5000,mV,,,verify_cal_voltage,5000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_SPFCAP_BOOST_DIV_6000,mV,,,verify_cal_voltage,6000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_SPFCAP_BOOST_DIV_7000,mV,,,verify_cal_voltage,7000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_SPFCAP_BOOST_DIV_8000,mV,,,verify_cal_voltage,8000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_SPFCAP_BOOST_DIV_9000,mV,,,verify_cal_voltage,9000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_SPFCAP_BOOST_DIV_10000,mV,,,verify_cal_voltage,10000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_SPFCAP_BOOST_DIV_11000,mV,,,verify_cal_voltage,11000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_SPFCAP_BOOST_DIV_12000,mV,,,verify_cal_voltage,12000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_SPFCAP_BOOST_DIV_13000,mV,,,verify_cal_voltage,13000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_SPFCAP_BOOST_DIV_14000,mV,,,verify_cal_voltage,14000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_SPFCAP_BOOST_DIV_15000,mV,,,verify_cal_voltage,15000,,,,,50000,
+
+
+CAL_POWER_RAIL,Relay POWER_RAIL_PATH to PPVBUS_HMD_SPKRAMP_DIV,,,,relay_switch,POWER_RAIL_PATH,PPVBUS_HMD_SPKRAMP_DIV,,,,20000,
+CAL_POWER_RAIL,debug_read_voltage PPVBUS_HMD_SPKRAMP_DIV,mV,,,get_cal_voltage,PPVBUS_HMD_SPKRAMP_DIV,0@16000@power_rail,,,,50000,
+
+CAL_POWER_RAIL,verify_PPVBUS_HMD_SPKRAMP_DIV_5000,mV,,,verify_cal_voltage,5000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_HMD_SPKRAMP_DIV_6000,mV,,,verify_cal_voltage,6000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_HMD_SPKRAMP_DIV_7000,mV,,,verify_cal_voltage,7000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_HMD_SPKRAMP_DIV_8000,mV,,,verify_cal_voltage,8000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_HMD_SPKRAMP_DIV_9000,mV,,,verify_cal_voltage,9000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_HMD_SPKRAMP_DIV_10000,mV,,,verify_cal_voltage,10000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_HMD_SPKRAMP_DIV_11000,mV,,,verify_cal_voltage,11000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_HMD_SPKRAMP_DIV_12000,mV,,,verify_cal_voltage,12000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_HMD_SPKRAMP_DIV_13000,mV,,,verify_cal_voltage,13000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_HMD_SPKRAMP_DIV_14000,mV,,,verify_cal_voltage,14000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_HMD_SPKRAMP_DIV_15000,mV,,,verify_cal_voltage,15000,,,,,50000,
+
+
+CAL_POWER_RAIL,Relay POWER_RAIL_PATH to PPVBUS_SYS_SNS_DIV,,,,relay_switch,POWER_RAIL_PATH,PPVBUS_SYS_SNS_DIV,,,,20000,
+CAL_POWER_RAIL,debug_read_voltage PPVBUS_SYS_SNS_DIV,mV,,,get_cal_voltage,PPVBUS_SYS_SNS_DIV,0@16000@power_rail,,,,50000,
+
+CAL_POWER_RAIL,verify_PPVBUS_SYS_SNS_DIV_5000,mV,,,verify_cal_voltage,5000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_SYS_SNS_DIV_6000,mV,,,verify_cal_voltage,6000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_SYS_SNS_DIV_7000,mV,,,verify_cal_voltage,7000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_SYS_SNS_DIV_8000,mV,,,verify_cal_voltage,8000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_SYS_SNS_DIV_9000,mV,,,verify_cal_voltage,9000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_SYS_SNS_DIV_10000,mV,,,verify_cal_voltage,10000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_SYS_SNS_DIV_11000,mV,,,verify_cal_voltage,11000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_SYS_SNS_DIV_12000,mV,,,verify_cal_voltage,12000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_SYS_SNS_DIV_13000,mV,,,verify_cal_voltage,13000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_SYS_SNS_DIV_14000,mV,,,verify_cal_voltage,14000,,,,,50000,
+CAL_POWER_RAIL,verify_PPVBUS_SYS_SNS_DIV_15000,mV,,,verify_cal_voltage,15000,,,,,50000,
+
+
+
+
+
+
+
+CAL_POWER_RAIL,PSU_OFF,,,,psu_off,,,,,,20000,
+
+CAL_POWER_RAIL,WRITE_TO_EEPROM,,,,write_to_file,EEPROM,,,,,50000,
+
+Fixture Init,OQC_CLOSE,,,,oqc_close,inst_34460,,,,,20000,
+Fixture Init,Reset fixture_2,,,,reset_board,,,,,,20000,

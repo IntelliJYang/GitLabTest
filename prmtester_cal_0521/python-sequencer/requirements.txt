@@ -1,0 +1,8 @@
+mock
+pytest
+pytest-cov
+pytest-instafail
+pytest-pep8
+pyzmq
+pyobjc
+

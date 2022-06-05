@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="circle_green_24px.png">./images/x24/circle_green_24px.png</file>
+        <file alias="circle_red_24px.png">./images/x24/circle_red_24px.png</file>
+        <file alias="circle_grey_24px.png">./images/x24/circle_grey_24px.png</file>
+        <file alias="open_24px.png">./images/x24/open_24px.png</file>
+        <file alias="Start_24px.png">./images/x24/Start_blue_24px.png</file>
+        <file alias="stop_24px.png">./images/x24/Stop_24px.png</file>
+        <file alias="loop_24px.png">./images/x24/Loop_24px.png</file>
+        <file alias="logo.png">./images/PRM LOGO.png</file>
+
+        <file alias="busy.gif">./images/gif/busy.gif</file>
+        <file alias="reset.png">./images/reset.png</file>
+        <file alias="circle_green_32px.png">./images/x32/circle_green_32px.png</file>
+        <file alias="circle_red_32px.png">./images/x32/circle_red_32px.png</file>
+        <file alias="circle_grey_32px.png">./images/x32/circle_grey_32px.png</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file alias="resetbutton.qss">./qss/resetbutton.qss</file>
+        <file alias="qtableview.qss">./qss/qtableview.qss</file>
+        <file alias="qtreeview.qss">./qss/qtreeview.qss</file>
+    </qresource>
+
+</RCC>

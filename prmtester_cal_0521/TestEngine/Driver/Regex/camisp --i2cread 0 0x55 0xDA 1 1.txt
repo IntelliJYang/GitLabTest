@@ -1,0 +1,3 @@
+RunI2cRead 0xDA
+{{register_data}}
+Pass

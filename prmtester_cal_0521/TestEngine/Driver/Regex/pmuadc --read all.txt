@@ -1,0 +1,121 @@
+PMU ADC test
+Read all Channels
+Read PMU ADC channels
+vddout: {{vddout}} mV
+vbat: {{vbat}} mV
+brick_id: {{brick_id}} mV
+brick_id2: {{brick_id2}} mV
+tcal: {{tcal}} Ohm
+temp_buck0: {{temp_buck0}} C
+temp_buck1: {{temp_buck1}} C
+tdev1: {{tdev1}} C
+tdev2: {{tdev2}} C
+tdev3: {{tdev3}} C
+tdev4: {{tdev4}} C
+tdev5: {{tdev5}} C
+tdev6: {{tdev6}} C
+tdev7: {{tdev7}} C
+tdev8: {{tdev8}} C
+ibuck0: {{ibuck0}} mA
+ibuck1: {{ibuck1}} mA
+ibuck2: {{ibuck2}} mA
+ibuck3: {{ibuck3}} mA
+ibuck4: {{ibuck4}} mA
+ibuck7: {{ibuck7}} mA
+ibuck9: {{ibuck9}} mA
+ibuck11: {{ibuck11}} mA
+ibuck13: {{ibuck13}} mA
+ibat_out: {{ibat_out}} mA
+BIST buck0: {{bist_buck0}} mV
+BIST buck1: {{bist_buck1}} mV
+BIST buck2: {{bist_buck2}} mV
+BIST buck3: {{bist_buck3}} mV
+BIST buck4: {{bist_buck4}} mV
+BIST buck7: {{bist_buck7}} mV
+BIST buck9: {{bist_buck9}} mV
+BIST buck11: {{bist_buck11}} mV
+BIST buck13: {{bist_buck13}} mV
+BIST buck3_sw1: {{bist_buck3_sw1}} mV
+BIST buck3_sw2: {{bist_buck3_sw2}} mV
+BIST buck13_sw3: {{bist_buck3_sw3}} mV
+BIST ldo0: {{bist_ldo0}} mV
+BIST ldo1: {{bist_ldo1}} mV
+BIST ldo2: {{bist_ldo2}} mV
+BIST ldo3: {{bist_ldo3}} mV
+BIST ldo5: {{bist_ldo5}} mV
+BIST ldo7: {{bist_ldo7}} mV
+BIST ldo8: {{bist_ldo8}} mV
+BIST ldo9: {{bist_ldo9}} mV
+BIST ldo10: {{bist_ldo10}} mV
+BIST ldo11: {{bist_ldo11}} mV
+BIST ldo13: {{bist_ldo13}} mV
+BIST ldo14: {{bist_ldo14}} mV
+BIST ldo16: {{bist_ldo16}} mV
+BIST ldo20: {{bist_ldo20}} mV
+BIST ildo0: {{bist_ildo0}} mA
+BIST ildo1: {{bist_ildo1}} mA
+BIST ildo2: {{bist_ildo2}} mA
+BIST ildo3: {{bist_ildo3}} mA
+BIST ildo5: {{bist_ildo5}} mA
+BIST ildo7: {{bist_ildo7}} mA
+BIST ildo9: {{bist_ildo9}} mA
+BIST ildo10: {{bist_ildo10}} mA
+BIST ildo13: {{bist_ildo13}} mA
+BIST ildo14: {{bist_ildo14}} mA
+BIST ildo16: {{bist_ildo16}} mA
+BIST amuxa0: {{bist_amuxa0}} mV
+BIST amuxa1: {{bist_amuxa1}} mV
+BIST amuxa2: {{bist_amuxa2}} mV
+BIST amuxa3: {{bist_amuxa3}} mV
+BIST amuxb0: {{bist_amuxb0}} mV
+BIST amuxb1: {{bist_amuxb1}} mV
+BIST amuxb2: {{bist_amuxb2}} mV
+BIST amuxb3: {{bist_amuxb3}} mV
+BIST amuxay: {{bist_amuxay}} mV
+BIST amuxby: {{bist_amuxby}} mV
+vale vbat : {{vale_vbat}} mV
+vale brick_id : {{vale_brick_id}} mV
+vale brick_id2 : {{vale_brick_id2}} mV
+vale adc_in7 : {{vale_adc_in7}} mV
+vale tcal : {{vale_tcal}} Ohm
+vale temp_ldo8 : {{vale_temp_ldo8}} C
+vale temp_ldo12 : {{vale_temp_ldo12}} C
+vale temp_buck5 : {{vale_temp_buck5}} C
+vale temp_buck6 : {{vale_temp_buck6}} C
+vale temp_buck10 : {{vale_temp_buck10}} C
+vale temp_buck12 : {{vale_temp_buck12}} C
+vale tdev1 : {{vale_tdev1}} C
+vale tdev2 : {{vale_tdev2}} C
+vale tdev3 : {{vale_tdev3}} C
+vale tdev4 : {{vale_tdev4}} C
+vale tdev5 : {{vale_tdev5}} C
+vale ibuck5 : {{vale_ibuck5}} mA
+vale ibuck6 : {{vale_ibuck6}} mA
+vale ibuck10 : {{vale_ibuck10}} mA
+vale ibuck12 : {{vale_ibuck12}} mA
+vale buck5 : {{vale_buck5}} mV
+vale buck6 : {{vale_buck6}} mV
+vale buck8 : {{vale_buck8}} mV
+vale buck10 : {{vale_buck10}} mV
+vale buck12 : {{vale_buck12}} mV
+vale buck14 : {{vale_buck14}} mV
+vale buck3_sw4 : {{vale_buck3_sw4}} mV
+vale buck12_sw6 : {{vale_buck12_sw6}} mV
+vale buck12_sw7 : {{vale_buck12_sw7}} mV
+vale buck13_sw5 : {{vale_buck13_sw5}} mV
+vale ldo0 : {{vale_ldo0}} mV
+vale ldo4 : {{vale_ldo4}} mV
+vale ldo6 : {{vale_ldo6}} mV
+vale ldo9 : {{vale_ldo9}} mV
+vale ldo12 : {{vale_ldo12}} mV
+vale ldo15 : {{vale_ldo15}} mV
+vale ldo17 : {{vale_ldo17}} mV
+vale ldo18 : {{vale_ldo18}} mV
+vale ildo0 : {{vale_ildo0}} mA
+vale ildo4 : {{vale_ildo4}} mA
+vale ildo6 : {{vale_ildo6}} mA
+vale ildo9 : {{vale_ildo9}} mA
+vale ildo12 : {{vale_ildo12}} mA
+vale ildo15 : {{vale_ildo15}} mA
+vale ildo17 : {{vale_ildo17}} mA
+vale ildo18 : {{vale_ildo18}} mA
