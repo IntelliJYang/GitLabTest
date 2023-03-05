@@ -1,2 +1,0 @@
-Sweeping bus 0
-Bus 0 IC exists at Address: (7-bit) {{ace_i2c_addr1_7bit}} (8-bit) {{ace_i2c_addr1_8bit}}

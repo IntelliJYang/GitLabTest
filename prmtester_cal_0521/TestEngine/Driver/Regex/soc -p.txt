@@ -1,4 +1,0 @@
-	vendor: {{vendor}}
-	model: {{soc_model}}
-	primary-cpu: {{ANY}}
-	{{ANY}}

@@ -1,2 +1,0 @@
-Sweeping bus 2
-Bus 2 IC exists at Address: (7-bit) {{bellatrix_i2c_addr1_7bit}} (8-bit) {{bellatrix_i2c_addr1_8bit}}

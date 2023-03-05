@@ -1,1 +1,0 @@
-Wrote to tag "smc_ap" unit 0 pin 0.0: {{enable_supercap_charger}}

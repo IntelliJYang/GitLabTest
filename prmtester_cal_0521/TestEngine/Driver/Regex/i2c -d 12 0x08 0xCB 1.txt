@@ -1,2 +1,0 @@
-{{ANY}}
-Data:  {{i2c_version}}

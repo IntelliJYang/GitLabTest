@@ -1,3 +1,0 @@
-RunI2cRead 0xE8
-{{register_data}}
-Pass

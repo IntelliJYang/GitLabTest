@@ -1,2 +1,0 @@
-{{ANY}}
-Data:  {{register_0x12}}
